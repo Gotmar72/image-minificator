@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore images to process and processed images
+/images_to_process/*
+!/images_to_process/.keep
+/processed_images/*
+!/processed_images/.keep
